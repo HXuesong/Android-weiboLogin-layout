@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--底部栏按钮样式-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--前后样式变化，颜色加深-->
+    <item android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+
+            <corners android:radius="20dp"/>
+            <solid android:color="#7490ae"/>
+
+            <stroke
+                android:width="2dp"
+                android:color="#4e7fb3"/>
+
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+
+            <corners android:radius="20dp"/>
+            <solid android:color="#35679c"/>
+
+            <stroke
+                android:width="2dp"
+                android:color="#4e7fb3"/>
+
+        </shape>
+    </item>
+
+</selector>

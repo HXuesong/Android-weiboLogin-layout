@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--顶部标题栏样式-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--绘制圆弧-->
+    <corners android:radius="30dp"/>
+    <solid android:color="#c7b192"/>
+    <stroke
+        android:width="4dp"
+        android:color="#4477b0"/>
+
+</shape>

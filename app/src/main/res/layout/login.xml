@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--安卓第二次作业-“掌上微博”用户登录界面 by韩雪松-->
+
+<!--最外层LinearLayout，纵向排列，设置背景图-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+
+    <!--顶部标题栏-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:padding="12dp"
+
+        android:textSize="40sp"
+        android:textColor="#cf7f41"
+        android:text="掌上微博"
+
+        android:background="@drawable/toptextview_style"/>
+
+    <!--第一个内嵌LinearLayout，水平排列-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <!--左侧textView“账号”-->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:padding="10dp"
+
+            android:textSize="20sp"
+            android:textColor="#d28752"
+            android:text="账号:"
+
+            android:background="@drawable/lefttextview_style" />
+
+        <!--右侧“账号”输入框-->
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/edittext_style"/>
+    </LinearLayout>
+
+    <!--第二个内嵌LinearLayout，水平排列-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp">
+
+        <!--左侧textView“密码”-->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:padding="10dp"
+
+            android:textSize="20sp"
+            android:textColor="#d28752"
+            android:text="密码："
+
+            android:background="@drawable/lefttextview_style" />
+
+        <!--右侧“密码”输入框-->
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/edittext_style"/>
+    </LinearLayout>
+
+
+    <!--第三个内嵌LinearLayout，水平排列-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="right"
+
+        android:layout_marginTop="20dp">
+
+        <!--底部栏“登录”按钮-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="26sp"
+            android:textColor="#7e6f66"
+            android:text="登录"
+
+            android:background="@drawable/btn_style"/>
+
+        <!--底部栏“注册”按钮-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="26sp"
+            android:textColor="#7e6f66"
+            android:text="注册"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="34dp"
+
+            android:background="@drawable/btn_style"/>
+
+    </LinearLayout>
+
+</LinearLayout>
